@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập Web 5/9</title>
+    <style>
+        .setup_background{
+            background-color: rgb(186, 210, 234);
+        }
+        .font_word{
+            font-family: sans-serif;
+        }
+        .Title{
+            font-weight: bold;
+            color: rgb(54, 120, 183);
+            background-color: rgb(186, 210, 234);
+        }
+        .align_top{
+            vertical-align: top;
+        }
+        body{
+            background-color: rgb(106, 234, 191);
+
+        }
+        *{
+            color: rgb(79, 65, 65);
+        }
+    </style>
+</head>
+<body>
+    <table border="0" cellpadding="0" cellspacing="0">
+        <thead>
+            <tr>
+                <th colspan="2"><h1 class="font_word" align="left">Happy</h1></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td width="700px" height="25px" class="Title" >About</td>
+                <td rowspan="6" class="align_top"><img src="Happy.png" alt="Happy" width="250px" height="230px"></td>
+            </tr>
+            <tr>
+                <td height="25px">Meo Meo !!!</td>
+            </tr>
+            <tr>
+                <td height="25px">Hi, I'm NTH's pet. I love <span class="font_word" style="color: rgb(102, 151, 208);"> <b>catching mouse and coding</b></span> </td>
+            </tr>
+            <tr>
+                <td class="Title" height="25px">Courses</td>
+            </tr>
+            <tr>
+                <td height="25px">Here are some courses I've taken:</td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" cellpadding="0" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Courses Number</th>
+                                <th>Courses Title</th>
+                                <th>Semester Taken</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="3" align="center"><b>For Credit</b></td>
+                            </tr>
+                            <tr>
+                                <td>6.831</td>
+                                <td>User Interface Design</td>
+                                <td>Spring 2014</td>
+                            </tr>
+                            <tr>
+                                <td>6.034</td>
+                                <td>Artificial Intelligent</td>
+                                <td>Fall 2013</td>
+                            </tr>
+                            <tr>
+                                <td>6.006</td>
+                                <td>Introduction to Algorithms</td>
+                                <td>Fall 2013</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" align="center"><b>Listener</b></td>
+                            </tr>
+                            <tr>
+                                <td>6.867</td>
+                                <td>Machine Learning</td>
+                                <td>Fall 2013</td>
+                            </tr>
+                            <tr>
+                                <td>6.830</td>
+                                <td>Dadabase Systems</td>
+                                <td>Fall 2012</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="Title" height="25px">Interests</td>
+            </tr>
+            <tr>
+                <td colspan="2" height="50px">I'm interested <b>HCL</b>, memes and youtube video</td>
+            </tr>
+            <tr>
+                <td colspan="2" height="25px" class="Title">Submit Pet Information</td>
+            </tr>
+            <tr>
+                <td colspan="2" height="50px">Would love to know what kinds of pets your "owwn" (you will never own me).Submit below!</td>
+            </tr>
+            <tr >
+                <td colspan="2">
+                    <form>
+                        <label for="name">Name: </label>
+                        <input type="text" id="name" name="name_pet_user"><br>
+                        <label for="phylum">Phylum: </label>
+                        <input type="text" id="phylum" name="phylum_pet_user"><br>
+                        <label for="gender">Gender: </label>
+                        <input type="text" id="gender" name="gender_pet_user"><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

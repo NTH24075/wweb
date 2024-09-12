@@ -1,0 +1,25 @@
+body{
+    background-color: #CEE9F9;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-family:Georgia, serif;
+}
+
+*{
+    font-family: Arial;
+}
+
+
+.form_grid_info{
+    display: grid;
+    grid-template-columns: 110px 300px;
+}
+.grid_item{
+    padding: 0px;
+    width: 100px;
+}
